@@ -15,6 +15,9 @@ pub enum ContractError {
     #[error("Collection Not Found")]
     CollectionNotFound {},
 
+     #[error("Not white users")]
+    NOTWHITEUSERS {},
+
     
     #[error("Not enough funds")]
     Notenough{},
